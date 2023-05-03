@@ -1,0 +1,43 @@
+body
+{
+    background-image: linear-gradient(to right, rgb(57, 87, 221), rgb(108, 219, 223));
+    background-color: rgb(166, 181, 238);
+}
+#desh
+{
+    color:blanchedalmond;
+    margin: auto;
+    padding-left:30px;
+    padding-top:20px;
+}
+#bot1
+{
+    margin: 0;
+    left: 2%;
+    position: relative;
+}
+#bot2
+{
+    margin: 0;
+    left: 3%;
+    position: relative;
+}
+#sub
+{
+    margin: 0;
+    left: 4.5%;
+    top: 4px;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(14, 128, 242);
+    color: white;
+    width: 100px;
+    height: 37px;
+}
+#back
+{
+    width: 70px;
+    position: absolute;
+    top: 80px;
+    left: 26%;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="Registration.css">
+    <script src="RegistraionScript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <h3>STUDENT REGISTRATION FORM</h3>
+    <div>
+        <table align="center" cellpadding="10">
+            <td>Name</td>
+            <td><input type="text" name="Name" id="name" maxlength="30">(max 30 character allow A-Z and a-z)</td>
+            <tr>
+                <td>Password</td>
+                <td><input type="text" name="password" id="password"></td>
+            </tr>
+            <tr>
+            <td>Profession</td>
+                <td>
+                    <select name="role" id="role">
+                        <option value="1">Student</option>
+                        <option value="2">Teacher</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Date Of Birth</td>
+                <td><input type="date" id="date"</td>
+
+            </tr>
+
+            <tr>
+                <td>Email Id</td>
+                <td><input type="email" name="Email_Id" id="Email" maxlength="50"></td>
+            </tr>
+
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="text" name="Mobile_No" id="phone" maxlength="10">(10digit number)</td>
+                
+            </tr>
+            <tr>
+                <div id="mess"></div>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <select name="gender" id="gen">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>CurrentAddress</td>
+                <td><input type="text" name="CurrentAddress" id="currentAddress"/></td>
+            </tr>
+            <tr>
+                <td>ParmanentAddress</td>
+                <td><input type="text" name="ParmanentAddress" id="parmanentAddress"/></td>
+            </tr>
+
+            <tr>
+                <td>PIN Code</td>
+                <td><input type="text" name="Pin_Code" id="pin" maxlength="6">(6 digit number)</td>
+            </tr>
+
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="City" id="city"></td>
+            </tr>
+
+            <tr>
+                <td>Nationality</td>
+                <td><input type="text" name="Nationality" id="nationality"></td>
+            </tr>
+            
+      </table>
+      <div id="button">
+        <button onclick="saveFormDetails()" name="SUBMIT">SUBMIT</button><br><br>
+        <a href="teacher_dashboard.html"><input type="button" name="back" id="back" value="Back"></a><br>
+        <div id="mess"></div>
+      </div>    
+    </div>
+    
+
+</body>
+
+</html>

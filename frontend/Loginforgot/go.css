@@ -1,0 +1,25 @@
+#A
+{
+    font-family: sans-serif;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left:50%;
+    color: dimgray;
+    text-align: center;
+    width: 57%;
+    height: 48%;
+    padding: 40px;
+}
+body
+{
+    background-image: url(img3.jpg);
+}
+a
+{
+    font-size: 30px;
+    position: absolute;
+    top:60%;
+    right: 38%;
+}

@@ -1,0 +1,28 @@
+body
+{
+    background-image: linear-gradient(to right,rgb(57, 87, 221), rgb(108, 219, 223));
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+table {
+    color: #fff;
+    font-size: 15px;
+    background-color: rgb(119, 210, 240);
+    border-collapse: collapse;
+    border: 2px solid navy;
+}
+
+table.inner {
+    border: 0px;
+}
+#button
+{
+   text-align: center;
+   padding:10px;
+}
